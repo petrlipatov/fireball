@@ -3,7 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "standalone",
   webpack(config, { dev }) {
-    // config.resolve.alias["@"] = path.resolve(__dirname, "src");
     if (dev) {
       config.watchOptions = {
         aggregateTimeout: 200,
