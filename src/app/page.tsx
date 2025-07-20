@@ -1,9 +1,5 @@
-// import { Button } from "../shared/ui/button";
+import HomePage from "@/pages-components/home/HomePage";
 
 export default function Home() {
-  return (
-    <div className="h-full">
-      {/* <h1 className="text-white">Стань частью лампового сообщества</h1> */}
-    </div>
-  );
+  return <HomePage />;
 }

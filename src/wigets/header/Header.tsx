@@ -43,7 +43,6 @@ const Header = () => {
           >
             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </Button>
-
           {isMobileMenuOpen && (
             <div className="absolute top-full left-0 right-0 shadow-lg z-50 border-t py-2">
               <div className="flex flex-col">

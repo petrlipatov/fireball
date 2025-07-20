@@ -14,7 +14,6 @@ FROM base AS development
 ENV NODE_ENV=development
 COPY package.json package-lock.json ./
 RUN npm ci
-
 COPY . .
 
 CMD ["npm", "run", "dev"]
